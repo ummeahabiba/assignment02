@@ -147,7 +147,40 @@ color: #FFFFFF;
 
   /*media quary for small device */
   @media screen and (max-width: 576px) {
-    .banner, .nav, .nav-links{
+  .nav-bar, .nav-links, .nav-links, .banner{
       flex-direction: column;
     }
+    .nav-links{
+      height: 130px;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+    }
+    .nav-home{
+    margin-bottom: 8px;
+    }
+
+    /*banner*/
+    .banner{
+  width: 100%;
+  padding: 10px;
+    }
+    .banner-container, .banner-img{
+      width: 100%;
+    }
+    .problem-btn{
+      margin-top: -190px;
+      margin-left: -20px;
+    }
+    .problem-btn2{
+      margin-left: 150px;
+      margin-top: -300px;
   }
+  .banner-join-btn, .banner-download-btn{
+    width: 160px;
+    display: inline;
+  }
+  .banner-img{
+    margin-left: 5px;
+   }
+}
