@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #141313;
+  }
+
+  @import url('https://fonts.cdnfonts.com/css/berthalisa');
+       
+
+  /*sheared style*/
+.display-flex{
+    display: flex;
+}
+.btn-primary{
+border-radius: 50px;
+padding: 13px;
+width: 224px;
+font-size: 1.2rem;
+font-weight: 500px;
+color: #FFFFFF;
+}
+  /*Header  --  nav bar*/
+  .nav{
+    max-width: 1440px;
+    margin: 0px auto;
+  }
+  .nav-bar{
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav ul{
+    list-style: none;
+  }
+
+  nav ul li>a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin:0px 30px 0px 10px;
+  }
+  .nav-bar-title{
+    color: rgba(230, 83, 60, 1);
+    font-size: 2.2rem;
+    font-weight: bolder;
+    font-style: italic;
+  }
+  .nav-links{
+    border: 1px solid #352929;
+    border-radius: 20px;
+    padding: 10px;
+  }
+  .nav-home{
+    border: 1px solid rgba(230, 83, 60, 1);
+    border-radius: 20px;
+    background-color: rgba(230, 83, 60, 1);
+    padding: 5px 20px;
+  }
+  /*banner- header*/
+  .banner{
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+  }
+  .banner-title{
+    font-size: 4.8rem;
+    color: #FFFFFF;
+    font-weight: bolder;
+  }
+  .banner-description{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: bolder;
+    margin-bottom: 35px;
+  }
+  .banner-miama{
+    font-family: 'Berthalisa', sans-serif;                                            
+    font-weight: 600;
+    font-style: italic;                                             
+  }
+  .banner-join-btn{
+    background-color: rgba(230, 83, 60, 1);
+    border: none;
+  }
+  .banner-download-btn{
+    background-color: black;
+    border: 1px solid rgb(105, 96, 96);
+    margin-left: 15px;
+  }
+.banner-container{
+  width: 600px;
+}
+.banner-img{
+  width: 350px;
+  height: 580px;
+}
+.problem-btn{
+  height: 100px;
+  width: 200px;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  margin-top: -150px;
+  margin-left: -100px;
+}
+.circle{
+  width: 40px;
+  height: 40px;
+  background-color: rgba(230, 83, 60, 1);
+  border-radius: 100%;
+  border: 1px solid rgba(230, 83, 60, 1);
+}
+.btn-350{
+  color: #FFFFFF;
+  font-size: 24px;
+}
+.btn-tutorial{
+  color: rgba(239, 237, 232, 0.65);
+  font-size: 16px;
+}
+.problem-btn2{
+  height: 80px;
+  width: 160px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 15px 20px;
+  margin-left: 250px;
+  margin-top: -400px;
+}
+.btn-500{
+  color: #FFFFFF;
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+.btn-tutorial2{
+  color: rgba(239, 237, 232, 0.65);
+  font-size: 16px;
+}
+
+
+
+  /*media quary for small device */
+  @media screen and (max-width: 576px) {
+    .banner, .nav, .nav-links{
+      flex-direction: column;
+    }
+  }
