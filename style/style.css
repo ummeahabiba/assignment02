@@ -204,16 +204,62 @@ color: #FFFFFF;
   width: 400px;
   height: 400px;
  }
+ .run-title{
+  font-size: 3rem;
+ }
  .run-img{
   width: 400px;
   height: 400px;
-  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
  }
  .run-img img{
   width: 380px;
   height: 320px;
   border-radius: 20px;
  }
+ .run-buttn{
+  margin-top: 20px;
+ }
+/*3rd client section*/
+.client-section{
+  max-width: 1440px;
+  background-color: #252525;
+  height: 600px;
+  margin: 0 auto;
+}
+.client-description{
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.client-img{
+  width: 1400px;
+  margin: 0 auto;
+}
+.client-img img{
+  width: 320px;
+  height: 300px;
+}
+.clint-img-con{
+  width: 350px;
+  padding: 10px;
+}
+.ellipsis{
+  width: 300px;
+  border: 2px solid rgb(11, 62, 104);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+
+
+
+
 
 
  /*media quary for small device */
@@ -230,7 +276,7 @@ color: #FFFFFF;
     .nav-home{
     margin-bottom: 8px;
     }
-    .habit-img-container{
+    .habit-img-container {
       flex-direction: column;
     }
 
@@ -260,31 +306,49 @@ color: #FFFFFF;
           margin-left: 150px;
           margin-top: -300px;
       }
-      .banner-join-btn, .banner-download-btn{
+      .banner-join-btn, 
+      .banner-download-btn{
         width: 160px;
         display: inline;
       }
       .banner-img{
         margin-left: 5px;
        } 
-       /*eun section*/
+       /*run section*/
       .run-section{
         flex-direction: column;
-        height: 700px;
+        height: 100%;
         width: 100%;
+        gap: 50px;
       }
-      .run-container, .run-img{
+      .run-container{
         width: 300px;
+        height: 100%;
+      }
+      .run-img{
+        width: 300px;
+        height: 100%;
       }
       .run-img img{
         width: 300px;
         height: 230px;
-        margin-top: -700px;
       }
-      .run-title{
-        font-size: 50px;
-      }
-      .run-description{
-        padding-bottom: 20px;
-      }
+
+      /*client section*/
+  .client-img{
+    flex-direction: column;
+  }
+    .client-section{
+      max-width: 100%;
+      height: 100%;
+    }
+    .client-img{
+      flex-direction: column;
+    }
+    .client-description, 
+    .clint-img-con, 
+    .client-img{
+      max-width: 100%;
+      height: 100%;
+    }
   }
