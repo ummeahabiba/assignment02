@@ -24,7 +24,7 @@ color: #FFFFFF;
 }
 .sheared-h1{
   color: #FFFFFF;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 600;
 }
 .sheared-h3{
@@ -224,9 +224,11 @@ color: #FFFFFF;
 /*3rd client section*/
 .client-section{
   max-width: 1440px;
-  background-color: #252525;
+  background-color: #382c2c;
   height: 600px;
   margin: 0 auto;
+ margin-bottom: 40px;
+ border-radius: 5px;
 }
 .client-description{
   width: 700px;
@@ -256,8 +258,61 @@ color: #FFFFFF;
   border-radius: 8px;
 }
 
+/*4th section BMI*/
+.table, td, th {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+}
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
 
+.BMI{
+  width: 1440px;
+  margin: 0 auto;
+  background-color: #252525;
+  height: 400px;
+}
+.BMI-container{
+width: 600px;
+height: 200px;
+margin: 0 auto;
+}
+.BMI-table{
+  align-items: center;
+  justify-content: center;
+  gap: 170px;
+}
+.BMI-table-column{
+  width: 400px;
+  height: 350px;
+  margin-top: 20px;
+}
+.BMI-calculator-title{
+  width: 600px;
+}
+.BMI-calculator{
+  width: 600px;
+  height: 350px;
+  margin-top: 30px;
+}
+.BMI-input input{
+  padding: 10px;
+  background-color: #3b3b3b;
+  border-radius: 10px;
+  border: 1px solid #3b3b3b;
+  margin: 10px 0px ;
+  width: 260px;
+}
+.input-select input{
+  width: 550px;
+}
+.input-select{
+  margin-bottom:10px;
+}
 
 
 
@@ -350,5 +405,34 @@ color: #FFFFFF;
     .client-img{
       max-width: 100%;
       height: 100%;
+    }
+    /*4th section*/
+    .BMI{
+     height: 100% ;
+    }
+    .BMI-container{
+     width: 90%;
+    }
+    .BMI,
+    .BMI-table,
+    .BMI-table-column,
+    .BMI-calculator,
+    .BMI-calculator-title,
+    .BMI-input{
+      width: 100%;
+    } 
+  
+    .BMI-table-column table{
+      width: 100%;
+    }
+    .BMI-table{
+      flex-direction: column;
+      gap: 10px;
+    }
+    .BMI-input input{
+      width: 40%;
+    }
+    .input-select input{
+      width: 85%;
     }
   }
