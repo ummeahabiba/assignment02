@@ -37,6 +37,7 @@ color: #FFFFFF;
   font-size: 14px;
   font-weight: 400;
 }
+
   /*Header  --  nav bar*/
   .nav{
     max-width: 1440px;
@@ -371,7 +372,7 @@ margin: 0 auto;
 
  /*media quary for small device */
  @media screen and (max-width: 576px) {
-  .nav-bar, .nav-links, .nav-links, .banner{
+   .nav-links, .nav-links, .banner{
       flex-direction: column;
     }
     .nav-links{
@@ -527,5 +528,25 @@ margin: 0 auto;
     }
     .footer-foot{
       width: 90%;
+    }
+    .hamburger {
+      cursor: pointer;
+      display: block;
+    }
+    
+    .bar {
+      display: block;
+      width: 25px;
+      height: 3px;
+      margin: 5px auto;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+      background-color: white;
+    }
+    .nav-links{
+      display: none;
+    }
+    .nav-bar{
+      flex-direction: row;
     }
   }
